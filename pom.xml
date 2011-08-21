@@ -21,62 +21,41 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>project-parent</artifactId>
-    <groupId>de.lightful.maven.drools</groupId>
-    <version>0.0.16-SNAPSHOT</version>
+    <groupId>de.lightful.maven.drools.poms</groupId>
+    <artifactId>knowledge-module</artifactId>
+    <version>1</version>
   </parent>
 
+  <groupId>de.lightful.maven.drools.plugin.itartifacts</groupId>
   <artifactId>drools-vehicle-types</artifactId>
   <version>0.0.16-SNAPSHOT</version>
   <packaging>knowledge-module</packaging>
 
-  <name>Maven Drools Plugin :: Drools Types (Vehicle)</name>
-  <description>A pre-compiled drools knowledge package containing vehicle data types (for integration testing)</description>
-
-  <dependencies>
-    <dependency>
-      <groupId>de.lightful.maven.drools</groupId>
-      <artifactId>integration-repository</artifactId>
-      <type>pom</type>
-    </dependency>
-  </dependencies>
+  <name>Maven Drools Support :: Plugin :: IT Artifacts :: Drools Vehicle Types</name>
+  <description>A pre-compiled drools knowledge package containing vehicle data types, used for integration testing</description>
 
   <build>
     <plugins>
+
       <plugin>
         <groupId>de.lightful.maven.plugins</groupId>
         <artifactId>maven-drools-plugin</artifactId>
-        <version>0.0.15</version>
-        <dependencies>
-          <dependency>
-            <groupId>org.drools</groupId>
-            <artifactId>drools-compiler</artifactId>
-            <version>[5.1.1]</version>
-          </dependency>
-        </dependencies>
-        <extensions>true</extensions>
+
         <configuration>
           <passes>
             <pass>
-              <name>First Pass</name>
               <ruleSourceRoot>${basedir}/src/main/rules/pass-one</ruleSourceRoot>
-              <includes>
-                <include>**/*.drl</include>
-              </includes>
-              <excludes>
-                <exclude>**/Test*.drl</exclude>
-              </excludes>
             </pass>
           </passes>
         </configuration>
       </plugin>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-invoker-plugin</artifactId>
-      </plugin>
-
     </plugins>
   </build>
+
+  <scm>
+    <connection>scm:git:git@github.com:maven-drools/it-artifacts.drools-vehicle-types.git</connection>
+    <developerConnection>scm:git:git@github.com:maven-drools/it-artifacts.drools-vehicle-types.git</developerConnection>
+  </scm>
 
 </project>
