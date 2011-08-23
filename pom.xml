@@ -27,7 +27,7 @@
 
   <groupId>de.lightful.maven.drools.plugin.itartifacts</groupId>
   <artifactId>drools-vehicle-types</artifactId>
-  <version>0.0.17</version>
+  <version>0.0.18-SNAPSHOT</version>
   <packaging>knowledge-module</packaging>
 
   <name>Maven Drools Support :: Plugin :: IT Artifacts :: Drools Vehicle Types</name>
