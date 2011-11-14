@@ -23,7 +23,7 @@
   <parent>
     <groupId>de.lightful.maven.drools.poms</groupId>
     <artifactId>knowledge-module</artifactId>
-    <version>4</version>
+    <version>5</version>
   </parent>
 
   <groupId>de.lightful.maven.drools.plugin.itartifacts</groupId>
