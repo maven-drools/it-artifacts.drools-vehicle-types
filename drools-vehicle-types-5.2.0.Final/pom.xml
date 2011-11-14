@@ -27,7 +27,7 @@
 
   <groupId>de.lightful.maven.drools.plugin.itartifacts</groupId>
   <artifactId>drools-vehicle-types-5.2.0.Final</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
 
   <name>Maven Drools Support :: Plugin :: IT Artifacts :: Drools Vehicle Types :: 5.2.0.Final</name>
   <description>A pre-compiled drools knowledge package containing vehicle data types for 5.2.0.Final, used for integration testing</description>
