@@ -21,8 +21,8 @@
 
   <parent>
     <groupId>de.lightful.poms</groupId>
-    <artifactId>standard-build</artifactId>
-    <version>32</version>
+    <artifactId>standard-oss-build</artifactId>
+    <version>2</version>
   </parent>
 
   <groupId>de.lightful.maven.drools.plugin.its.test-artifacts</groupId>
@@ -45,7 +45,7 @@
     <module>drools-vehicle-types-5.1.1</module>
     <module>drools-vehicle-types-5.2.0.Final</module>
     <module>drools-vehicle-types-5.3.0.Final</module>
-    <module>drools-vehicle-types-5.4.0.Beta1</module>
+    <!--<module>drools-vehicle-types-5.4.0.Final</module>-->
   </modules>
 
   <scm>

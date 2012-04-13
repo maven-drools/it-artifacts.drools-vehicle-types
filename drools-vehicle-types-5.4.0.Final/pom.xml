@@ -22,16 +22,16 @@
   <parent>
     <groupId>de.lightful.maven.drools.poms</groupId>
     <artifactId>knowledge-module</artifactId>
-    <version>8</version>
+    <version>10</version>
   </parent>
 
   <groupId>de.lightful.maven.drools.plugin.its.test-artifacts</groupId>
-  <artifactId>drools-vehicle-types-5.4.0.Beta1</artifactId>
+  <artifactId>drools-vehicle-types-5.4.0.Final</artifactId>
   <version>0.1.7-SNAPSHOT</version>
   <packaging>knowledge-module</packaging>
 
-  <name>Maven Drools Support :: Plugin :: IT Artifacts :: Drools Vehicle Types :: 5.4.0.Beta1</name>
-  <description>A pre-compiled drools knowledge package containing vehicle data types for 5.4.0.Beta1, used for integration testing</description>
+  <name>Maven Drools Support :: Plugin :: IT Artifacts :: Drools Vehicle Types :: 5.4.0.Final</name>
+  <description>A pre-compiled drools knowledge package containing vehicle data types for 5.4.0.Final, used for integration testing</description>
 
   <licenses>
     <license>
@@ -42,7 +42,7 @@
   </licenses>
 
   <properties>
-    <drools.runtime.version>5.4.0.Beta1</drools.runtime.version>
+    <drools.runtime.version>5.4.0.Final</drools.runtime.version>
   </properties>
 
   <build>
